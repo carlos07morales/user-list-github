@@ -1,0 +1,58 @@
+/* src/components/UserProfiles.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Contenedor para el scroll */
+  .scroll-container {
+    width: 100%;
+    max-width: 600px;
+    max-height: 350px;
+    overflow-y: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  

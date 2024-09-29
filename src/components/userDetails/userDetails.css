@@ -1,0 +1,87 @@
+/* Contenedor centrado */
+.user-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  /* Tarjeta de detalles del usuario */
+  .user-details-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: left; /* Cambiamos de centrado a izquierda */
+  }
+  
+  .user-details-card h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    text-align: center; /* Título centrado */
+  }
+  
+  .user-details-card h2 span {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .user-details-card .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .user-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .user-info p {
+    font-size: 1rem;
+    margin: 0;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-info p strong {
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .user-info p span {
+    text-align: right;
+  }
+  
+  /* Botón para regresar */
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+  }
+  
+  .back-button:hover {
+    background-color: #45a049;
+  }
+  
